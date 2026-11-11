@@ -1,10 +1,6 @@
-numpy
+# 這兩支腳本自己額外需要的套件。
+# Kronos 模型本身的依賴 (torch、einops、huggingface_hub、safetensors…) 請裝上游 repo 的 requirements.txt。
+yfinance
+matplotlib
 pandas
-torch>=2.0.0
-
-einops==0.8.1
-huggingface_hub==0.33.1
-matplotlib==3.9.3
-pandas==2.2.2
-tqdm==4.67.1
-safetensors==0.6.2
+numpy
